@@ -1,0 +1,9 @@
+server:
+  port: 8100
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uti:
