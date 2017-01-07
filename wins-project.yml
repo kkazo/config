@@ -1,5 +1,13 @@
 ---
 spring:
+  profiles: default
+
+project:
+  subject: "WINS Project Config for local "
+
+
+---
+spring:
   profiles: local
 
 project:
