@@ -1,1 +1,16 @@
 subject: "WINS Project Config"
+
+---
+spring:
+  profiles: stage
+  subject: "WINS Project Config for Stage"
+
+---
+spring:
+  profiles: dev
+  subject: "WINS Project Config for Dev"
+
+---
+spring:
+  profiles: local
+  subject: "WINS Project Config for local"
