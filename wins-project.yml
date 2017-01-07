@@ -1,3 +1,8 @@
+
+---
+spring:
+  profiles: production
+
 project:
   subject: "WINS Project Config"
 
