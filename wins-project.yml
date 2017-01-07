@@ -1,3 +1,9 @@
+---
+spring:
+  profiles: local
+
+project:
+  subject: "WINS Project Config for local "
 
 ---
 spring:
@@ -20,9 +26,3 @@ spring:
 project:
   subject: "WINS Project Config for Dev"
 
----
-spring:
-  profiles: local
-
-project:
-  subject: "WINS Project Config for local "
