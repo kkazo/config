@@ -4,17 +4,20 @@ project:
 ---
 spring:
   profiles: stage
-  project:
-    subject: "WINS Project Config for Stage"
+
+project:
+  subject: "WINS Project Config for Stage"
 
 ---
 spring:
   profiles: dev
-  project:
-    subject: "WINS Project Config for Dev"
+
+project:
+  subject: "WINS Project Config for Dev"
 
 ---
 spring:
   profiles: local
-  project:
-    subject: "WINS Project Config for local"
+
+project:
+  subject: "WINS Project Config for local "
